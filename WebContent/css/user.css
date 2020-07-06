@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:50%;
+	margin:4.5rem auto 0;
+}
+.heading{
+	border-bottom:1px solid #bbb;
+	padding-bottom:.3rem;
+	margin-bottom:2rem;
+}
+img{
+	margin-bottom:1rem;
+}
+.user{
+	margin-bottom:3rem;
+	position:relative;
+}
+.submit{
+	position:absolute;
+	right:1rem;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:70%;
+	margin:4.5rem auto 0;
+	padding-top:1rem;
+	padding-bottom:4rem;
+}
+
+.game-title{
+	margin-bottom:1rem;
+
+}
+
+.game-info{
+	display:flex;
+	margin-bottom:2rem;
+}
+.game-info_img-wrapper{
+	width:50%;
+}
+.game-info_description-wrapper{
+	width:50%;
+	padding-left:2rem;
+}
+
+.community-heading{
+	border-bottom:1px solid #bbb;
+	margin-bottom:1.5rem;
+}
+
+
+.community{
+	position:relative;
+	border-bottom:1px solid #ddd;
+	margin-top:2rem;
+}
+.community_name{
+	display:inline-block;
+}
+.community_link{
+	position:absolute;
+	right:0;
+}
+
+.form-wrapper{
+	position:relative;
+}
+
+.community-form-heading{
+	margin-top:2rem;
+	border-bottom:1px solid #bbb;
+	margin-bottom:1rem;
+}
+
+.submit{
+	position:absolute;
+	right:0;
+	top:3.5rem;
+}
+

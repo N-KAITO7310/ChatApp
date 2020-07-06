@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:60%;
+	margin:5rem auto 0;
+	position:relative;
+	padding-bottom:2rem;
+}
+
+.heading{
+	border-bottom:1px solid #bbb;
+	margin-bottom:1rem;
+	padding-bottom:.3rem;
+}
+.submit{
+	position:absolute;
+	right:0;
+	margin-top:1rem;
+}
+.users{
+	margin-top:5rem;
+}
+.userInfo{
+	border-bottom:1px solid #bbb;
+	height:3rem;
+	padding-top:.7rem;
+	position:relative;
+}
+.name{
+	margin-left:1rem;
+
+}
+.user-link{
+	position:absolute;
+	right:1rem;
+}

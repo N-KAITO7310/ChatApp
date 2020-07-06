@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.wrapper{
+	margin:0 auto;
+	width:50%;
+	height:800px;
+	padding-top:7rem;
+	position:relative;
+}
+
+.heading{
+	font-weight:bold;
+}
+
+.form{
+	margin-top:2rem;
+}
+
+.email{
+	margin-top:1rem;
+}
+.pass-label{
+	margin: 1rem 0 1rem 0;
+}
+
+.pass{
+
+}
+
+.submit{
+	position:absolute;
+	right:0;
+	margin-top:1rem;
+	width:10rem;
+}

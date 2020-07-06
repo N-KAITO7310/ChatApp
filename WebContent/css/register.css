@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.wrapper{
+	margin:0 auto;
+	width:50%;
+	height:1100px;
+	padding-top:7rem;
+	position:relative;
+}
+
+.heading{
+	font-weight:bold;
+}
+
+.label{
+	margin-top:.5rem;
+}
+
+.form-control-file{
+	margin-right:1rem;
+}
+
+.submit{
+	position:absolute;
+	right:0;
+	margin-top:3rem;
+	width:10rem;
+}
+
+#year, #month, #day{
+	margin-top:1rem;
+	margin-right:.5rem;
+	margin-left:.2rem;
+	width:20% !important;
+	display:inline-block !important;
+}
+.preview{
+	margin-top:1rem;
+	margin-bottom:1rem;
+}

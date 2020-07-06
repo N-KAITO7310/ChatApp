@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:50%;
+	margin:4.5rem auto 6rem;
+	position:relative;
+}
+
+.heading{
+	border-bottom:1px solid #333;
+}
+.form-wrapper{
+	position:absolute;
+	right:0;
+}
+.form{
+	display:inline-block;
+
+}
+.intro{
+	margin:2rem 0 2rem;
+}
+img{
+	margin-bottom:1rem;
+}

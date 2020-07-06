@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:50%;
+	margin:5.5rem auto 0;
+	padding-bottom:3rem;
+}
+.group-name{
+	border-bottom:1px solid #bbb;
+	padding-bottom:.5rem;
+}
+.btn-wrapper{
+	display:flex;
+	justify-content:flex-end;
+	margin-bottom:2rem;
+}
+.submit{
+	margin-left:1rem;
+}
+.member-heading{
+	margin-bottom:2rem;
+}
+.user{
+	border-bottom:1px solid #bbb;
+	position:relative;
+	margin-bottom:1rem;
+}
+.user-icon, .user-name{
+	display:inline-block;
+}
+.user-name{
+	margin-left:1.5rem;
+}
+.user-link{
+	position:absolute;
+	right:1rem;
+	top:1.8rem;
+}

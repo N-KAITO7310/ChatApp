@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+.wrapper{
+	display:flex;
+	background-image: url(../img/top.jpg);
+	height:700px;
+	background-size:cover;
+}
+
+.left{
+	padding-top:18rem;
+	padding-left:4rem;
+	width:50%;
+	color:#fff;
+}
+
+.heading{
+	margin-bottom:0.5rem;
+	font-size:4rem;
+}
+
+.intro{
+
+}
+.right{
+	width:50%;
+	padding-left:4rem;
+	padding-top:23rem;
+}
+.form-wrapper{
+
+}
+
+.form{
+	display:inline-block;
+	margin-left:1rem;
+	margin-right:2rem;
+}
+
+.submit{
+	width:15rem;
+}

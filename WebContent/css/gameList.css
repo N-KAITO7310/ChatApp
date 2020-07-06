@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:50%;
+	margin:4.5rem auto 0;
+	padding-top:1rem;
+	padding-bottom:3rem;
+}
+
+.heading{
+	border-bottom:1px solid #bbb;
+	margin-bottom:2rem;
+}
+
+.game{
+	height:4rem;
+	border-bottom:1px solid #bbb;
+	padding-top:1.5rem;
+	position:relative;
+}
+
+.game_title{
+	display:inline-block;
+}
+.game_link{
+	position:absolute;
+	right:0;
+}

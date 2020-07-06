@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.wrapper{
+	width:70%;
+	margin:4.5rem auto 0;
+	padding-top:1rem;
+	padding-bottom:4rem;
+}
+.body{
+	background-color:#ffe;
+	background-image:url(../img/bg1.jpg);
+	background-size:cover;
+}
+
+.heading{
+	border-bottom:1px solid #333;
+	padding-bottom:.5rem;
+	font-weight:bold;
+}
+
+.room-header{
+	width:100%;
+	height:70px;
+	background-color:#273246;
+	color:#fff;
+	text-align:center;
+	margin-top:1rem;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+.room-name{
+	line-height:70px;
+}
+.room-wrapper{
+	border:1px solid #ddd;
+	border-top:none;
+	position:relative;
+	background-color:#7494c0;
+	border-bottom-left-radius:20px;
+}
+#post{
+	margin-bottom:0 !important;
+}
+.submit-post{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.room-wrapper{
+
+}
+.chat{
+	display:float;
+	width:100%;
+	height:200px;
+}
+.chat-body{
+	display:flex;
+}
+.chat-inner{
+	width:100%;
+}
+.me {
+	float:right;
+}
+.me .chat-comment-wrapper{
+	background-color:#8de055;
+	width:100%;
+}
+.you{
+	float:left;
+}
+.you .chat-comment-wrapper{
+	background-color:#fff;
+	width:100%;
+}
+.chat-inner{
+	display:inline-block;
+	border-radius:20px;
+	padding:10px;
+}
+.chat-comment-wrapper{
+	padding:1rem 5rem;;
+	border-radius:10px;
+	position:relative;
+}
+.you .chat-comment-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #fff;
+}
+.me .chat-comment-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #8de055;
+}
+
+.icon{
+	display:inline-block;
+	align-self:center;
+}
+.time{
+	text-align:center;
+}
+
+.chat-bottom{
+	display:flex;
+	justify-content:space-between;
+}
+.like-icon{
+	display:inline-block;
+	padding-left:1rem;
+}
+.read-status{
+	display:inline-block;
+	line-height:30px;
+	margin-left:4rem;
+}
+.submit-read{
+	margin-left:4rem;
+}
+.like-count{
+	padding-right:1rem;
+}
+.submit-like{
+	margin-left:1rem;
+}
+
+.chat-none{
+	padding-top:1rem;
+	padding-bottom:20rem;
+	text-align:center;
+}
+
